@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "etherTail",
-  "version": "1.0",
+  "version": "0.1",
   "description": "Extensions that tracks eth wallet balance usd value",
-  "homepage_url": "https://github.com/",
+  "homepage_url": "https://github.com/nawfalona/etherTail-extension",
   "icons": {
     "32": "icons/logo_32.png",
     "64": "icons/logo_64.png",
@@ -24,7 +24,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "ethTracker@besudo.com"
+      "id": "etherTail@besudo.com"
     }
   }
 }
