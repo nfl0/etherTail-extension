@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "etherTail",
+  "version": "1.0",
+  "description": "Extensions that tracks eth wallet balance usd value",
+  "homepage_url": "https://github.com/",
+  "icons": {
+    "32": "icons/logo_32.png",
+    "64": "icons/logo_64.png",
+    "128": "icons/logo_128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icons/logo_32.png",
+    "default_title": "etherTail",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": [
+      "js/bg.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ethTracker@besudo.com"
+    }
+  }
+}

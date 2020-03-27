@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./etherTail.css">
+	</head>
+    <body>
+
+	<div id="wrapper">
+			<header class="centered"><img class="image" src="./icons/logo_128.png" alt="etherTail logo" width="100" height="100"></header>
+			<header class="centered">Eth wallet tracker</header>
+
+			<!--Main view-->
+			<div id="mainView" class="page">
+				<div class="actionBtns centered">
+					<span id="add">ADD</span>
+				</div>
+				<div id="address" class="centered hidden"></div>
+				</br>
+				<div id="value" class="centered hidden"></div>
+
+				<div class="actionBtns centered">
+					<span id="refresh" class="hidden">REFRESH</span>
+				</div>
+				<div class="actionBtns centered">
+					<span id="change" class="hidden">CHANGE ADDRESS</span>
+				</div>
+			</div>
+
+			<!--end-->
+
+			<!--Edit view-->
+
+			<div id="editView" class="page hidden">
+				<div class="inputBox">
+						<span>Address</span>
+						<textarea name="ethAddress" required></textarea>
+						<div id="error"></div>
+					</div>
+
+				<div class="actionBtns centered">
+					<span id="set">SET</span>
+					<span id="cancel">CANCEL</span>
+				</div>
+			</div>
+
+			<!--end-->
+
+
+		</div>
+
+
+
+		<script type="text/javascript" src="./js/wallet-address-validator.min.js"></script>
+		<script type="text/javascript" src="./js/etherTail.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,83 @@
+:root {
+    --main-bg: #fff;
+    --main-clr: #000;
+}
+.centered {
+    text-align: center;
+}
+body {
+    color: #444;
+    font-family: DejaVu Sans Mono, monospace  ;
+    margin: 0;
+}
+header {
+    padding: 7px;
+    background: var(--main-bg);
+    color: var(--main-clr);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#wrapper {
+    min-width: 350px;
+    min-height: 250;
+    background: #eaeaea;
+    margin: 0 auto;
+}
+.hidden {
+    display: none!important;
+}
+.page {
+    padding: 20px;
+}
+.inputBox {
+    margin-top:20px;
+    position: relative;
+}
+.inputBox span {
+    position: absolute;
+    font-size: 12px;
+    background: var(--main-bg);
+    color: var(--main-clr);
+    padding: 1px 5px;
+    top: -11px;
+    left: 10px;
+    min-width: 30px;
+}
+input:not([type="checkbox"]), textarea {
+    padding: 8px 5px 5px;
+    width: 100%;
+    border: 0;
+}
+.actionBtns span {
+    background: var(--main-bg);
+    color: var(--main-clr);
+    width: 60px;
+    display: inline-block;
+    padding: 5px;
+    margin: 20px 0;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+  .image {
+    margin: 2em;
+    animation: .8s infinite beatHeart;
+  }
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
